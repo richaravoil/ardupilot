@@ -183,6 +183,12 @@ class VehicleInfo(object):
                 "default_params_filename": ["default_params/copter.parm",
                                             "models/Callisto.param"],
             },
+            "Dronvor": {
+                "model": "X:@ROMFS/models/Dronvor.json",
+                "waf_target": "bin/arducopter",
+                "default_params_filename": ["default_params/copter.parm",
+                                            "models/Dronvor.param"],
+            },
         },
     },
     "Helicopter": {
